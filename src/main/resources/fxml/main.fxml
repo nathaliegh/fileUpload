@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300" prefWidth="300" style="-fx-background-color: darkblue;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fileUpload.app.controller.MainController">
+   <children>
+      <AnchorPane layoutX="-6.0" layoutY="-4.0" opacity="0.89" prefHeight="297.0" prefWidth="717.0" styleClass="root" stylesheets="@../style/style.css">
+         <effect>
+            <DropShadow />
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <HBox alignment="CENTER" layoutX="189.0" layoutY="39.0" prefHeight="110.0" prefWidth="354.0" AnchorPane.bottomAnchor="327.0" AnchorPane.leftAnchor="189.0" AnchorPane.rightAnchor="168.0" AnchorPane.topAnchor="39.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <children>
+                  <Label />
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" lineSpacing="20.0" text="Kindly upload your files" textFill="#0a3669" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="Georgia Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="120.0" layoutY="387.0" prefHeight="60.0" prefWidth="153.0" />
+            <Button id="uploadButton" fx:id="uploadButton" contentDisplay="CENTER" layoutX="296.0" layoutY="213.0" mnemonicParsing="false" onAction="#uploadButtonAction" prefHeight="50.0" prefWidth="120.0" text="Upload" textFill="#0a3669">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
